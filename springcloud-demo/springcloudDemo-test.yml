@@ -1,0 +1,7 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+request:
+  base-path: "http://localhost:8080/portal-sso"
